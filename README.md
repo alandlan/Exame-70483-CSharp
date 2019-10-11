@@ -1,5 +1,5 @@
 # Exame-70483-CSharp
-Projeto para certificação c# 
+Repositório para estudos da certificação c# 
 
 Repositório para estudos da prova de certificação Exame 70-483
 

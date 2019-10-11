@@ -10,7 +10,10 @@ namespace Tipos
     {
         static void Main(string[] args)
         {
-
+            // Tipos C#
+            int numero = 100;
+            string nome = "Teste";
+            decimal valor = 360M;
         }
     }
 }

@@ -10,6 +10,7 @@ namespace Tipos
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("");
         }
     }
 }

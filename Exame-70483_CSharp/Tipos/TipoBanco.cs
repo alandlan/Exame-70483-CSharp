@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Tipos
 {
-   public class TipoBanco
+    /// <summary>
+    /// Tipo do banco
+    /// </summary>
+    public class TipoBanco
     {
+        /// <summary>
+        /// Id do tipo do banco
+        /// </summary>
+        public int IdTipoBanco { get; set; }
+
+        /// <summary>
+        /// Tipo de banco: Banco e Corretora
+        /// </summary>
+        public string TipoBanco { get; set; }
     }
 }

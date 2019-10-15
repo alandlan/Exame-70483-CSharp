@@ -10,6 +10,18 @@ namespace Tipos
     {
         static void Main(string[] args)
         {
+
+            TiposValor tiposValor = new TiposValor(1, 1, '1', 1.0M, 200, 25, 100, 32, 345, 23465, 1324455, 2);
+
+            Console.WriteLine(tiposValor.Percentual);
+
+            int DiaDaSemana = Convert.ToInt32(DiasDaSemana.Dom);
+
+            Console.WriteLine(DiaDaSemana);
+
+
+            Console.ReadKey();
+
             // Tipos C#
             int numero = 100;
             string nome = "Teste AB";
@@ -64,6 +76,7 @@ namespace Tipos
 
             Console.WriteLine("Tipo char: {0}", sexo);
             Console.ReadLine();
+
 
         }
 

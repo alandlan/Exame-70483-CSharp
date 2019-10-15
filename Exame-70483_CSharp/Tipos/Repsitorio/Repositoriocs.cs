@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tipos;
 
 namespace Tipos.Repsitorio
 {
@@ -28,9 +29,11 @@ namespace Tipos.Repsitorio
         /// <summary>
         /// ContaCorrente herda a classe genérica
         /// </summary>
-        public class ContaCorrenteRepo : IBaseGeneric
+        public class ContaRepositorio
         {
-            Delete();
+            Conta conta = new Conta();
         }
+
+        
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tipos
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -66,5 +66,13 @@ namespace Tipos
             Console.ReadLine();
 
         }
+
     }
+
+   
+    
+
+
+   
+
 }

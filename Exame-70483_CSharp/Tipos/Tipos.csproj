@@ -43,12 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-
     <Compile Include="Enum\DiasDaSemana.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TiposValor\TiposValor.cs" />
-
     <Compile Include="Banco.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Enum.cs" />
@@ -56,8 +54,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TipoBanco.cs" />
-    <Compile Include="TipoContacs.cs" />
-
+    <Compile Include="TipoConta.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

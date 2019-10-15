@@ -32,5 +32,10 @@ namespace Tipos
         /// Numero da agencia
         /// </summary>
         public short NumeroAgencia { get; set; }
+
+        /// <summary>
+        /// Saldo Atual
+        /// </summary>
+        public decimal Saldo { get; set; }
     }
 }

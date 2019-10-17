@@ -46,16 +46,9 @@
     <Compile Include="Enum\DiasDaSemana.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repsitorio\Repositoriocs.cs" />
     <Compile Include="TiposValor\TiposValor.cs" />
-    <Compile Include="Banco.cs" />
-    <Compile Include="Cliente.cs" />
-    <Compile Include="Enum.cs" />
-    <Compile Include="ModificadoresAcesso.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TipoBanco.cs" />
-    <Compile Include="TipoContacs.cs" />
+    <Compile Include="Enum\Enum.cs" />
+    <Compile Include="TiposValor\ModificadoresAcesso.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

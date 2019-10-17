@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Tipos
 {
-    public class Program  
+    public class Program
     {
         static void Main(string[] args)
         {
+            #region 1º Parte -  Tipos Primitivos C# 
 
             TiposValor tiposValor = new TiposValor(1, 1, '1', 1.0M, 200, 25, 100, 32, 345, 23465, 1324455, 2);
 
@@ -18,7 +19,6 @@ namespace Tipos
             int DiaDaSemana = Convert.ToInt32(DiasDaSemana.Dom);
 
             Console.WriteLine(DiaDaSemana);
-
 
             Console.ReadKey();
 
@@ -77,19 +77,51 @@ namespace Tipos
             Console.WriteLine("Tipo char: {0}", sexo);
             Console.ReadLine();
 
+            #endregion
 
-            
         }
 
-        
+        #region 2º Parte - Classes, construtores e métodos
 
-        
+        public void Deposito()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Sacar()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Transfere()
+        {
+            throw new NotImplementedException();
+        }
+
+        #endregion
+
     }
 
-   
-    
+    public class Cliente
+    {
+        public int Id { get; set; } 
+        public string Nome { get; set; }
+        public string CPF { get; set; }
+        public string Email { get; set; }
+    }
 
+    public class ContaCorrente 
+    {
+        public string NumeroConta { get; set; }
+        public byte Digito { get; set; }
+        public byte Agencia { get; set; }
+        public decimal Saldo { get; set; }
+        public decimal Valor { get; set; }
+    }
 
-   
-
+    // exemplo de interface genérica
+    public interface BaseGeneric<T>  where T : class
+    {
+        int ConsultaSaldo();
+    }
 }

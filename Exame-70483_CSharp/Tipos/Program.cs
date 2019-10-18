@@ -81,6 +81,7 @@ namespace Tipos
 
         }
 
+       
         #region 2º Parte - Classes, construtores e métodos
 
         public void Deposito()
